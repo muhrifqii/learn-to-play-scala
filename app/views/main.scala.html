@@ -5,11 +5,19 @@
 <html>
     <head>
         <title>@title</title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap.css")">
         <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
         <script src="@routes.Assets.at("javascripts/hello.js")" type="text/javascript"></script>
     </head>
     <body>
-        @content
+        <div class="container">
+
+        </div>
+        <div class="footer text-center">
+            <a href="https://github.com/muhrifqii/learn-to-play-scala">Fork me on Github</a>
+            <i class="fa fa-github fa-1"></i>
+            <a href="https://github.com/muhrifqii">Learn to web with beautiful code</a>
+        </div>
     </body>
 </html>
