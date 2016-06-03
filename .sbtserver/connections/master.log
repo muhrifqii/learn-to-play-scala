@@ -35,3 +35,6 @@ New client attempting to connect on port: 57606-57551
 This client on port 57606 has uuid e22cb71c-1510-4f8a-b4e7-71c8421882c4 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
 Connected Clients: activator-85735705-daa6-4a80-9d7c-5e10c719f8f7, play-fork-run-e22cb71c-1510-4f8a-b4e7-71c8421882c4
 Taking next connection to: 57551
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57551
