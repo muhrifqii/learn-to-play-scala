@@ -1,9 +1,0 @@
-New log file opened at Sat Jun 04 15:55:02 ICT 2016 by 2792@Rifqi
-Sending msg to client play-fork-run-8f04b2ed-c6d0-4de6-a4f3-daafe7cfeadb: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\.sbtserver\connections\master.log))
-Sending msg to client play-fork-run-8f04b2ed-c6d0-4de6-a4f3-daafe7cfeadb: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\.sbtserver\master.log))
-Sending msg to client play-fork-run-8f04b2ed-c6d0-4de6-a4f3-daafe7cfeadb: DetachedLogEvent(LogMessage(debug,sbt client logs are in: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\.sbtserver\connections\play-fork-run-8f04b2ed-c6d0-4de6-a4f3-daafe7cfeadb.log))
-Reading next message from client.
-Client play-fork-run-8f04b2ed-c6d0-4de6-a4f3-daafe7cfeadb closed, java.net.SocketException: Connection reset, shutting down
-Stopping client.
-Dropping message (0,ReceivedResponse()) to dead client play-fork-run-8f04b2ed-c6d0-4de6-a4f3-daafe7cfeadb
-Client play-fork-run-8f04b2ed-c6d0-4de6-a4f3-daafe7cfeadb thread exiting.

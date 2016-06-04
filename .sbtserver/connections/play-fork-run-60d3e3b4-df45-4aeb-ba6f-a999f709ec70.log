@@ -1,5 +1,0 @@
-New log file opened at Sat Jun 04 15:54:59 ICT 2016 by 2792@Rifqi
-Sending msg to client play-fork-run-60d3e3b4-df45-4aeb-ba6f-a999f709ec70: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\.sbtserver\connections\master.log))
-Sending msg to client play-fork-run-60d3e3b4-df45-4aeb-ba6f-a999f709ec70: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\.sbtserver\master.log))
-Sending msg to client play-fork-run-60d3e3b4-df45-4aeb-ba6f-a999f709ec70: DetachedLogEvent(LogMessage(debug,sbt client logs are in: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\.sbtserver\connections\play-fork-run-60d3e3b4-df45-4aeb-ba6f-a999f709ec70.log))
-Reading next message from client.

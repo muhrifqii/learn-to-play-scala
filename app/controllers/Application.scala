@@ -4,6 +4,8 @@ import models.TheWord
 import play.api._
 import play.api.mvc._
 
+import scala.collection.mutable
+
 object Application extends Controller {
 
   implicit val app = Play.current
@@ -11,7 +13,7 @@ object Application extends Controller {
   def index = Action {
     val real = getThatText("sample1.txt")
     val result = doTheJobFun {
-      real
+      mutable.Seq(real: _*)
     }
     Ok(views.html.index(real.mkString("\n"), result))
 
@@ -21,7 +23,7 @@ object Application extends Controller {
     Ok(getThatText("sample1.txt").mkString("\n"))
   }
 
-  def getThatText(fileName: String): List[String] = {
+  def getThatText(fileName: String) = {
     val source = scala.io.Source.fromFile(app.getFile(fileName))("UTF-8")
     try source.getLines().toList
     catch {
@@ -30,21 +32,13 @@ object Application extends Controller {
     finally source.close()
   }
 
-  val doTheJobFun = (text: List[String]) => {
-//    val hpr = text.view
+  val doTheJobFun = (text: mutable.Seq[String]) => {
     text.flatMap(_.split("[.?!:]"))
-      .map(_.split("\\s+").head)
+      .map(_.split("\\s+").find(_.nonEmpty).getOrElse(""))
+      .filter(_.matches("[a-zA-Z].*"))
       .filter(!_.equals(""))
       .map { p => TheWord(p, p.reverse) }
-    //      .map(_.split("\\s+"))
-    //      .filter { p => !p.equals("") }
-    //      .map { p => TheWord(p, p.reverse) }
-
-    //    text.map(_.split("\\n+").mkString("."))
-    //      .map(splitSentence)
-    //      .map(_.map(firstWordFun))
-    //      .map(p => TheWord(p, p.reverse))
-
+      .toList
   }
 
 }
