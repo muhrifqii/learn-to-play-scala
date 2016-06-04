@@ -1,0 +1,79 @@
+Google I/O 2016 — Keynote Overview
+This year, the 10th time organised I/O, was like a geek festival, unlike last years. You can watch the whole keynote from the link, but here are my observations.
+Conference moved on with at least 4 parallel sessions and office hours. You can watch whole the videos from link.
+Ok, before talking about what mentioned at session, lets talk about the conference atmosphere.
+
+Until this year, I/O was held at Moscone Center, SF, but this time it was organised at Shoreline Amphitheater, Mountain View which is exactly the backyard of the Google main campus and which is perfect. Of course, because of first being held such a place like this, there were some deficiencies, but as person who loves festival atmosphere, I think, it was the perfect the place.
+
+Keynote was on amphitheater. After that, some sessions was taken place at there and some others at tents.
+
+Because of being so much sessions in parallel, it was terribly hard to decide which session should I watch. At least, the keynote is always only one :) I am moving on with the highlights from keynote.
+Keynote was a real show. So what we learned from keynote and what we expect from this summer and this fall ?
+Keynote started with how the mobile was important in our lives. While showing the live queries on screen, it was mentioned that more than 50% of the queries coming from mobile and the more exciting one was 20% of them were voice queries coming from Android. Actually, this shows us which way the technology moves on. When we start to something with voice, it takes place of the keys, obviously.
+Then it was moved with developments at search. Search -the reason why Google is here- can now differentiate 1 billion entity. Sundar Pichai, said that they achieved the success that they never imagined thanks to image recognition an computer vision. Then, he showed the success of Google Photos which is introduced last year at Google I/O keynote. For example, when we search the “hugs” keyword at Google Photos, we can see the whole hugging photos. Actually, this is extraordinary success, because it is a variable action.
+The machine learning that could only translate between two languages 10 years ago, now can translate more than 100 languages to each other. Ok, you can say that, this is achievable. But the coolest one is its visual translation in real time. (8:11 at keynote video)
+After entrance, Google’s this year surprise was “Google Assistant.”
+
+You can say that, what makes assistant so special. It is conversational, keeps move on two way dialog. We can see the now the science fiction movies becoming real. A real virtual assistant that helps us to organise our daily routine. Thanks to the partner companies, it can organises the issues like flight, hotel, table reservation, can integrate to the smart home system(Google Home) and makes us remote the electronic devices as voice. Of course, it is controlled by voice. At this point, Sundar Pichai shows the product’s power as saying it was so perfect that even it can recognise his voice and take the right actions. :)
+Google Assistant Partners:
+
+I think, the next breakthrough product was Allo. New smart messaging app from Google.
+
+You can think like it a conversation between you, your friend and Google(Google Assistant). The first feature is expression.
+For instance, it provides to send the text at preferred size to be able to express our feelings more accurate. As moving the button on bar on vertical side, we can change the size of character.
+
+Another nice feature of expression is smart answer. When a friend asks for “Dinner Later?”, app offers the answers, “I’m in” “I’m busy”. And it can do this to images, too.
+So you may start to think about the assistant, yes exactly as you guess, the restaurant offers at the message below is given by assistant.
+
+Another application is Duo, Allo’s video call app.
+What makes it different from other applications is its showing the calling side even before answering the call. This feature is called as knock knock. Additionally, it works on both Android and also IOS. End-to-end encrypted. Another feature is its keeping the video call at same quality independent from the connection speed or quality and handling this at background. This summer, both Allo and Duo will be on market for IOS and also Android.
+
+Of course, keynote continued with Android. Dave Burke, VP of Engineering, said they could not have decided which desert Android N would be and have given it up to use. We can make our proposal from the link android.com/n. By the way, at the conference area, there was a incredibly cute white Android waiting for the Android N proposal. People wrote lots of things on it. I am confessing that I wrote GDG Istanbul :)
+Sooo what is new in performance, security and productivity coming with Android N?
+
+If we start with performance, there is performance improvement at two major area- graphics and runtime. At last Android release, Google expanded the OpenGL standard as bringing it to the mobile after desktop and console. At this time, they showed up with Vulkan- modern 3D graphics API. It had been designed game developers’ direct control of CPU.
+Another major development on performance is improvements on Android runtime. Firstly, there has been a major improvement on compiler. With Android N, it was observed that up to 600% performance improvement happened on CPU benchmarks.
+
+And secondly, just in time — JIT compiler. Thanks to JIT compiler, apps will be able to install 75% faster. And also, compiled code size decreased 50%.
+And finally security. From the start of Android, it was designed with the Algorithm Defense and Depth Security Algorithm as multi-layered. With N there has been added 3 more keywords to the security. First one is filed-based encryption. As using file level encryption instead of block level, user and system could be better isolated and saved. And secondly, Media Framework Hardening. The last one seamless update. Android N will provide get the latest update without doing anything.
+So, how Google provide the users’s security? For example, if there has been found a site that could be harmfull on internet searches, Google warns us. The usage of Google Chrome exceed the 1 billion limit. And another thing, Google Play. Each Android application passes the Google Play’s Security test, at first. And also, to detect potential vulnerability, App Security Improvement Program is for developers.
+And there is cloud based development, SafetyNet. This analyses billions of application every day to be able to detect malicious software. If it detects a bad signal, independent from which location it downloaded from, it provides its blocking or removing from the device.
+And finally productivity. Android users do their jobs multi-tasking most of the time. On the other hand, according to a research, 99.9% of the users picks last opened app from recents. For this reason, device closes the long time unused-apps. And the most beautiful one is Clear All button to be able to kill all the task at ones. App has only days until WWDC. The should do the exact same action. :)
+
+And another nice feature is passing to the previous screen when touching the recents tab. And if the user clicks again return backs to the first screen.
+And the waiting moment for productivity — Multi-Window. With Multi-Window, we can use two apps in the same screen, at the same time. Split-screen and picture-in-picture. While split-screen was designed for tablet and phone, on the other hand, picture-in-picture mode was designed for Android TV. Picture-in-picture mode provides us to do anything while watching TV.
+Another important development under productivity is on Notifications. When the usage of Notifications was analysed, it was realized that it is used mostly on messaging applications. And so, some improvements were done on Notifications. The quick reply feature that is already in iPhone but not Android until now, has come to Android, too. But there is one more feature that is not on iPhone, changing visibility of notifications from notification area.
+Another one is on Emojis. Android is the first mobile platform using unicode-9 imoji standard. There are more human-looking design and more skin-tone at this version.
+
+Dave Burke finishes his talk as saying Android N being the best Android version, which is true. We will see the results, when the users start to use that version in active.
+By the way, as paged on the conference, Beta version of N Release is live and can be downloaded. https://www.google.com/android/beta
+Supporting devices:
+Nexus 6, Nexus 9, Nexus 5X, Nexus 6P, Nexus Player
+Pixel C
+General Mobile 4G (Android One)
+
+Sooo what’s new in VR from Clay Bavor(VP of Virtual Reality)
+Clay Bavor said that everything had started 2 years ago with cardboard on I/O and then Virtual Reality apps had been started to develop and now there were 50M apps. This year’s VR surprise is Daydream.
+
+I comes with Android N. You can watch the keynote or for more detail VR session but thanks to partners, it looks like, VR and Daydream will move into our daily lives more.
+
+In addition to partners’ apps, there will be Google Movie, Street View(it should be extremely enjoyable), Photos and VR mode of Youtube. Daydream will be on end-users at this fall but we lucky developers can start to develop as using preview.
+And the next thing is Wear. New Platform update has been come as Android Wear 2.0. Smart reply, handwriting recognition, a new keyboard usage.
+
+The watch was transformed to a personal coach with the improvement of Automatic Activity Recognition. Independent from the phone, it can detect the motion and can use apps like Strava, open Spotify. Streaming music, sending message are completely independent from the phone. It can work integrated with both iPhone and Android, can connect to the Internet on Bluetooth or wifi. Developers can download 2.0 preview now, on the other side, the date that everybody can use is this fall.
+Soo, Lets move on with Android Studio. The most exciting part for me. Android Studio 2.2 preview has just released. Android Studio 2.2 preview focuses on speed, smarts and platform support.
+
+If we start with speed, in new Android Studio, build is faster 10x (instant run) and emulator is faster 3x. It means that emulator is faster that physical devices. As complaining about the slowness of emulator for years, Google’s coming up that kind of perfect solution is very exciting.
+Another great news on speed is on testing. 2.2 preview can record all the test scenario just tapping to the app and generate Espresso test code. (claps) We can run these test both from local and also from Google Cloud Test Lab as ide integrated.
+Another perfect news about speed is ConstraintLayout and Layout Designer. They provide us to design complicated layout more easily. It is similar to IOS’s constraints but much more improved version. And also we can get rid of the need of nested layout with ConstraintLayout which means better performance.
+The second area smarts. A new APK Analyzer, Layout Inspector, Expanded Android Code Analysis and IntelliJ’s new version 2016.1.
+The third one is Platform Support. Jack Compiler and Java 8 Support(lambdas), improved C++ support.
+And as last, Firebase. Firebase had come up as a service that provides mobile back-end and data storage, syncs from Android, IOS and also webs. 18 months ago. Now, 450.000 developers use Firebase. For this reason, the idea of improving Firebase and using it more on at applications had been come up. The new Firebase version is below:
+
+One of the most exciting new features is Firebase Analytics. It had been inspired from Google Analytics but re-designed for apps’ needs. It could be used on both Android and also IOS platforms. And the best part is its being free and unlimited.
+Yes, everybody talks on Instant Apps which is awesome. For example, one of your friend sent a link to you from an application. But you do not have that app. The awesome part comes. Only the needed part of the app is downloaded and we can look that link in the app. Here comes. It has backward compatibility from Jelly Bean.
+
+So, what happened beside these? Awesome sessions, festival atmosphere, concerts and parties. :)
+I hope it would be helpful.
+
+source from https://medium.com/@elifbon/google-i-o-2016-keynote-overview-1eeb29a4550f#.yqjze6v4l

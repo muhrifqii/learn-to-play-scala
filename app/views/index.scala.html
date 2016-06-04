@@ -1,7 +1,18 @@
-@(message: String)
+@(source: String, result: List[TheWord])
 
 @main("Welcome to The Jungle") {
 
-    @play20.welcome(message)
-
+    @*@play20.welcome(message)*@
+    <div class="row col-md2 center">
+        <h3>Before</h3>
+        <!--<p>-->
+        @Html(HtmlFormat.escape(source).toString.replace("\n", "<br />"))
+        <!--</p>-->
+    </div>
+    <div class="row col-md2 center">
+        <h3>After</h3>
+        @for(word <- result){
+            <p>@word.print()</p>
+        }
+    </div>
 }
