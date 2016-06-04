@@ -2034,3 +2034,9 @@ Copy resource mappings:
 Total time: 2 s, completed Jun 5, 2016 1:49:47 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
+> jobStop 11
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@5e507a29, check cycles: false
+Total time: 0 s, completed Jun 5, 2016 1:52:33 AM
+> server-post-command-cleanup
+> server-handle-next-server-request

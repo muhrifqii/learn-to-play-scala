@@ -344,3 +344,6 @@ New client attempting to connect on port: 4131-2930
 This client on port 4131 has uuid e5771f6d-0f45-48a5-b2d7-3dbb7fb63855 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
 Connected Clients: activator-58dc8d15-16af-4303-b3ff-4c4ffb4e6163, play-fork-run-e5771f6d-0f45-48a5-b2d7-3dbb7fb63855
 Taking next connection to: 2930
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 2930
