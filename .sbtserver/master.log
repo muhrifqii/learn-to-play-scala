@@ -1102,3 +1102,935 @@ Copy resource mappings:
 Total time: 2 s, completed Jun 5, 2016 1:12:30 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6e9aa97e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Read from stdout: Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 3a20e6e5, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\muhrifqii\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\muhrifqii\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\muhrifqii\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\muhrifqii\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.10.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;D:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.h2database\h2\1.3.175\jars\h2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\muhrifqii\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Read from stdout: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:28: value path is not a member of ClassLoader
+D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:28: value path is not a member of ClassLoader
+Read from stdout: val source = scala.io.Source.fromFile(Play.application.classloader.path.getAbsolutePath + "/" + fileName)("UTF-8")
+    val source = scala.io.Source.fromFile(Play.application.classloader.path.getAbsolutePath + "/" + fileName)("UTF-8")
+Read from stdout: ^
+                                                                       ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 2 s, completed Jun 5, 2016 1:20:33 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@46ccd72e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Read from stdout: Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 44de519b, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\muhrifqii\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\muhrifqii\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\muhrifqii\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\muhrifqii\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.10.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;D:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.h2database\h2\1.3.175\jars\h2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\muhrifqii\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Read from stdout: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:28: value resour is not a member of ClassLoader
+D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:28: value resour is not a member of ClassLoader
+Read from stdout: val source = scala.io.Source.fromFile(Play.application.classloader.resour + fileName)("UTF-8")
+    val source = scala.io.Source.fromFile(Play.application.classloader.resour + fileName)("UTF-8")
+Read from stdout: ^
+                                                                       ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 2 s, completed Jun 5, 2016 1:21:36 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3402fb78, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Read from stdout: Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 4de6e86b, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\muhrifqii\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\muhrifqii\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\muhrifqii\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\muhrifqii\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.10.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;D:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.h2database\h2\1.3.175\jars\h2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\muhrifqii\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Read from stdout: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:28: not enough arguments for method resourceAsStream: (name: String)(implicit app: play.api.Application)Option[java.io.InputStream].
+Read from stdout: Unspecified value parameter name.
+D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:28: not enough arguments for method resourceAsStream: (name: String)(implicit app: play.api.Application)Option[java.io.InputStream].
+Unspecified value parameter name.
+Read from stdout: val source = scala.io.Source.fromFile(Play.resourceAsStream() + fileName)("UTF-8")
+    val source = scala.io.Source.fromFile(Play.resourceAsStream() + fileName)("UTF-8")
+Read from stdout: ^
+                                                               ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 2 s, completed Jun 5, 2016 1:23:41 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5e9ede9c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Read from stdout: Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 249af4d5, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\muhrifqii\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\muhrifqii\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\muhrifqii\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\muhrifqii\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.10.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;D:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.h2database\h2\1.3.175\jars\h2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\muhrifqii\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Read from stdout: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:28: overloaded method value fromFile with alternatives:
+Read from stdout: (file: java.io.File)(implicit codec: scala.io.Codec)scala.io.BufferedSource <and>
+Read from stdout: (uri: java.net.URI)(implicit codec: scala.io.Codec)scala.io.BufferedSource <and>
+Read from stdout: (name: String)(implicit codec: scala.io.Codec)scala.io.BufferedSource
+Read from stdout: cannot be applied to (Option[java.io.InputStream])
+D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:28: overloaded method value fromFile with alternatives:
+  (file: java.io.File)(implicit codec: scala.io.Codec)scala.io.BufferedSource <and>
+  (uri: java.net.URI)(implicit codec: scala.io.Codec)scala.io.BufferedSource <and>
+  (name: String)(implicit codec: scala.io.Codec)scala.io.BufferedSource
+ cannot be applied to (Option[java.io.InputStream])
+Read from stdout: val source = scala.io.Source.fromFile(Play.resourceAsStream("public/inputs/".concat(fileName)))("UTF-8")
+    val source = scala.io.Source.fromFile(Play.resourceAsStream("public/inputs/".concat(fileName)))("UTF-8")
+Read from stdout: ^
+                                 ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 2 s, completed Jun 5, 2016 1:25:03 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1d477e43, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Read from stdout: Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 2e548e0, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\muhrifqii\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\muhrifqii\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\muhrifqii\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\muhrifqii\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.10.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;D:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.h2database\h2\1.3.175\jars\h2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\muhrifqii\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Read from stdout: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:28: overloaded method value fromFile with alternatives:
+Read from stdout: (file: java.io.File)(implicit codec: scala.io.Codec)scala.io.BufferedSource <and>
+Read from stdout: (uri: java.net.URI)(implicit codec: scala.io.Codec)scala.io.BufferedSource <and>
+Read from stdout: (name: String)(implicit codec: scala.io.Codec)scala.io.BufferedSource
+Read from stdout: cannot be applied to (Object)
+D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:28: overloaded method value fromFile with alternatives:
+  (file: java.io.File)(implicit codec: scala.io.Codec)scala.io.BufferedSource <and>
+  (uri: java.net.URI)(implicit codec: scala.io.Codec)scala.io.BufferedSource <and>
+  (name: String)(implicit codec: scala.io.Codec)scala.io.BufferedSource
+ cannot be applied to (Object)
+Read from stdout: val source = scala.io.Source.fromFile(Play.resourceAsStream("public/inputs/".concat(fileName)).getOrElse(""))("UTF-8")
+    val source = scala.io.Source.fromFile(Play.resourceAsStream("public/inputs/".concat(fileName)).getOrElse(""))("UTF-8")
+Read from stdout: ^
+                                 ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 2 s, completed Jun 5, 2016 1:26:16 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@346caa16, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Read from stdout: Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 7ac3bdf1, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\muhrifqii\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\muhrifqii\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\muhrifqii\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\muhrifqii\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.10.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;D:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.h2database\h2\1.3.175\jars\h2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\muhrifqii\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 3.781412039 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 5 s, completed Jun 5, 2016 1:28:08 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 7
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@7e9f9d0e, check cycles: false
+Total time: 0 s, completed Jun 5, 2016 1:28:09 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@66951acc, check cycles: false
+Total time: 0 s, completed Jun 5, 2016 1:28:09 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Kuliah/file_latihan_scala/PLAY/learn-to-play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@74dcb9f, check cycles: false
+Total time: 0 s, completed Jun 5, 2016 1:28:19 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@7566d0dd, check cycles: false
+Total time: 0 s, completed Jun 5, 2016 1:28:21 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Kuliah/file_latihan_scala/PLAY/learn-to-play-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@791a396e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\conf\application.conf,D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes\application.conf)
+	(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\conf\routes,D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes\routes)
+Total time: 2 s, completed Jun 5, 2016 1:28:24 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4f46d0aa, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Read from stdout: Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 4ed26c68, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\muhrifqii\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\muhrifqii\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\muhrifqii\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\muhrifqii\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.10.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;D:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.h2database\h2\1.3.175\jars\h2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\muhrifqii\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 3.21762182 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 4 s, completed Jun 5, 2016 1:32:49 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 8
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@34439332, check cycles: false
+Total time: 0 s, completed Jun 5, 2016 1:32:49 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@769dd421, check cycles: false
+Total time: 0 s, completed Jun 5, 2016 1:32:50 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Kuliah/file_latihan_scala/PLAY/learn-to-play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@6ca8bfc4, check cycles: false
+Total time: 1 s, completed Jun 5, 2016 1:32:59 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@65be9f0, check cycles: false
+Total time: 0 s, completed Jun 5, 2016 1:33:01 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6af65fbd, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Read from stdout: Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 29b9b5c1, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\muhrifqii\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\muhrifqii\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\muhrifqii\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\muhrifqii\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.10.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;D:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.h2database\h2\1.3.175\jars\h2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\muhrifqii\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Read from stdout: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:28: type mismatch;
+Read from stdout: found   : Option[java.io.InputStream]
+Read from stdout: required: java.io.InputStream
+D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:28: type mismatch;
+ found   : Option[java.io.InputStream]
+ required: java.io.InputStream
+Read from stdout: val source = scala.io.Source.fromInputStream(Play.resourceAsStream("public/inputs/".concat(fileName)))("UTF-8")
+    val source = scala.io.Source.fromInputStream(Play.resourceAsStream("public/inputs/".concat(fileName)))("UTF-8")
+Read from stdout: ^
+                                                                      ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 2 s, completed Jun 5, 2016 1:34:52 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7bc4cf4d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Read from stdout: Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 7bd4fef7, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\muhrifqii\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\muhrifqii\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\muhrifqii\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\muhrifqii\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.10.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;D:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.h2database\h2\1.3.175\jars\h2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\muhrifqii\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Read from stdout: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:30: type mismatch;
+Read from stdout: found   : Iterator[String]
+Read from stdout: required: java.io.InputStream
+D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:30: type mismatch;
+ found   : Iterator[String]
+ required: java.io.InputStream
+Read from stdout: case Some(is) => scala.io.Source.fromInputStream(is)("UTF-8").getLines()
+      case Some(is) => scala.io.Source.fromInputStream(is)("UTF-8").getLines()
+Read from stdout: ^
+                                                                            ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 3 s, completed Jun 5, 2016 1:38:59 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7bd58618, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Read from stdout: Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 540fb2e0, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\muhrifqii\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\muhrifqii\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\muhrifqii\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\muhrifqii\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.10.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;D:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.h2database\h2\1.3.175\jars\h2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\muhrifqii\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Read from stdout: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:29: not found: value concat
+D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:29: not found: value concat
+Read from stdout: Play.resourceAsStream( concat filePath) match {
+    Play.resourceAsStream( concat filePath) match {
+Read from stdout: ^
+                           ^
+Read from stdout: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:30: type mismatch;
+Read from stdout: found   : Any
+Read from stdout: required: java.io.InputStream
+D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:30: type mismatch;
+ found   : Any
+ required: java.io.InputStream
+Read from stdout: case Some(is) => scala.io.Source.fromInputStream(is)("UTF-8").getLines()
+      case Some(is) => scala.io.Source.fromInputStream(is)("UTF-8").getLines()
+Read from stdout: ^
+                                                       ^
+Read from stdout: two errors found
+two errors found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 3 s, completed Jun 5, 2016 1:43:38 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@1ceef0dc, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Read from stdout: Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 61e8b2e5, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\muhrifqii\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\muhrifqii\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\muhrifqii\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\muhrifqii\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.10.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;D:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.h2database\h2\1.3.175\jars\h2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\muhrifqii\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Read from stdout: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:30: type mismatch;
+Read from stdout: found   : Iterator[String]
+Read from stdout: required: java.io.InputStream
+D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:30: type mismatch;
+ found   : Iterator[String]
+ required: java.io.InputStream
+Read from stdout: case Some(is) => scala.io.Source.fromInputStream(is)("UTF-8").getLines()
+      case Some(is) => scala.io.Source.fromInputStream(is)("UTF-8").getLines()
+Read from stdout: ^
+                                                                            ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 2 s, completed Jun 5, 2016 1:44:00 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6bbc57c9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Read from stdout: Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 6e77d5c3, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\muhrifqii\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\muhrifqii\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\muhrifqii\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\muhrifqii\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.10.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;D:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.h2database\h2\1.3.175\jars\h2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\muhrifqii\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Read from stdout: D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:30: type mismatch;
+Read from stdout: found   : scala.io.BufferedSource
+Read from stdout: required: java.io.InputStream
+D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala:30: type mismatch;
+ found   : scala.io.BufferedSource
+ required: java.io.InputStream
+Read from stdout: case Some(is) => scala.io.Source.fromInputStream(is)("UTF-8")
+      case Some(is) => scala.io.Source.fromInputStream(is)("UTF-8")
+Read from stdout: ^
+                                                      ^
+Read from stdout: one error found
+one error found
+Compilation failed (CompilerInterface)
+Read from stdout: (compile:compileIncremental) Compilation failed
+(compile:compileIncremental) Compilation failed
+Total time: 3 s, completed Jun 5, 2016 1:45:01 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4d4df913, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Read from stdout: Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 3a68d49e, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\muhrifqii\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\muhrifqii\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\muhrifqii\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\muhrifqii\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.10.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;D:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.h2database\h2\1.3.175\jars\h2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\muhrifqii\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 3.716087706 s
+Invalidating D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala...
+Invalidating (transitively) by inheritance from D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala...
+Initial set of included nodes: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Invalidated by transitive inheritance dependency: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+The D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala source file has the following regular definitions changed:
+	load.
+All member reference dependencies will be considered within this context.
+None of the modified names appears in D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\src_managed\main\routes_routing.scala. This dependency is not being considered for invalidation.
+None of the modified names appears in D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\src_managed\main\routes_reverseRouting.scala. This dependency is not being considered for invalidation.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 4 s, completed Jun 5, 2016 1:46:47 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 9
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@12bead10, check cycles: false
+Total time: 0 s, completed Jun 5, 2016 1:46:47 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@1832cc6d, check cycles: false
+Total time: 0 s, completed Jun 5, 2016 1:46:47 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Kuliah/file_latihan_scala/PLAY/learn-to-play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@6fb799a2, check cycles: false
+Total time: 1 s, completed Jun 5, 2016 1:46:57 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@cfc4fae, check cycles: false
+Total time: 0 s, completed Jun 5, 2016 1:46:59 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Kuliah/file_latihan_scala/PLAY/learn-to-play-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@25450da4, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\conf\application.conf,D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes\application.conf)
+	(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\conf\routes,D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes\routes)
+Total time: 2 s, completed Jun 5, 2016 1:47:02 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@223b973, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\app\controllers\Application.scala)
+
+Read from stdout: Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Compiling 1 Scala source to D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 7a0d795a, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-library\2.11.6\jars\scala-library.jar
+	-classpath
+	D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.javassist\javassist\bundles\javassist-3.18.2-GA.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\muhrifqii\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.1.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\io.netty\netty\bundles\netty-3.9.9.Final.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.4.jar;C:\Users\muhrifqii\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\muhrifqii\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\muhrifqii\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\muhrifqii\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-jdbc_2.11\jars\play-jdbc_2.11-2.3.10.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;D:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.h2database\h2\1.3.175\jars\h2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\anorm_2.11\jars\anorm_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-1.4.jar;C:\Users\muhrifqii\.ivy2\cache\org.scala-lang.plugins\scala-continuations-library_2.11\bundles\scala-continuations-library_2.11-1.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\muhrifqii\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.10.jar;C:\Users\muhrifqii\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\muhrifqii\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\muhrifqii\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;d:\playframework-typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\muhrifqii\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar
+Scala compilation took 4.468014971 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 6 s, completed Jun 5, 2016 1:49:30 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 10
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@234c008a, check cycles: false
+Total time: 0 s, completed Jun 5, 2016 1:49:30 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@1e828748, check cycles: false
+Total time: 0 s, completed Jun 5, 2016 1:49:30 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Kuliah/file_latihan_scala/PLAY/learn-to-play-scala/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@13fd216f, check cycles: false
+Total time: 1 s, completed Jun 5, 2016 1:49:41 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@68fff82a, check cycles: false
+Total time: 0 s, completed Jun 5, 2016 1:49:42 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/D:/Kuliah/file_latihan_scala/PLAY/learn-to-play-scala/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@1b5ee007, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\conf\application.conf,D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes\application.conf)
+	(D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\conf\routes,D:\Kuliah\file_latihan_scala\PLAY\learn-to-play-scala\target\scala-2.11\classes\routes)
+Total time: 2 s, completed Jun 5, 2016 1:49:47 AM
+> server-post-command-cleanup
+> server-handle-next-server-request

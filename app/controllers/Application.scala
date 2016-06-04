@@ -1,5 +1,7 @@
 package controllers
 
+import java.io.{IOException, InputStream}
+
 import models.TheWord
 import play.api._
 import play.api.mvc._
@@ -23,9 +25,13 @@ object Application extends Controller {
     Ok(getThatText("sample1.txt").mkString("\n"))
   }
 
+  def load(filePath: String): InputStream = {
+    Play.resourceAsStream("public/inputs/" concat filePath).getOrElse(throw new IOException("file not found: " + filePath))
+  }
+
   def getThatText(fileName: String) = {
-//    val source = scala.io.Source.fromFile(app.getFile(fileName))("UTF-8")
-    val source = scala.io.Source.fromFile(Play.application.path.getAbsolutePath + "/" + fileName)("UTF-8")
+    //    val source = scala.io.Source.fromFile(app.getFile(fileName))("UTF-8")
+    val source = scala.io.Source.fromInputStream(load(fileName))("UTF-8")
     try source.getLines().toList
     catch {
       case e: Exception => e.printStackTrace(); null
