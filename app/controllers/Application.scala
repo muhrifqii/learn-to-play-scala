@@ -24,7 +24,8 @@ object Application extends Controller {
   }
 
   def getThatText(fileName: String) = {
-    val source = scala.io.Source.fromFile(app.getFile(fileName))("UTF-8")
+//    val source = scala.io.Source.fromFile(app.getFile(fileName))("UTF-8")
+    val source = scala.io.Source.fromFile(Play.application.path.getAbsolutePath + "/" + fileName)("UTF-8")
     try source.getLines().toList
     catch {
       case e: Exception => e.printStackTrace(); null
